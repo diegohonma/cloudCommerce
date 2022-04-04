@@ -12,11 +12,12 @@
 4. Select a file extension to convert data
 5. Inform a name for new file with converted data
 
-- Example:
+Example:
+
 ![usage](https://media.giphy.com/media/SGIEmWiEg7KIsbjUpN/giphy.gif)
 
 ### Running the tests
 - Open the command prompt 
-- Go to folder [test\cloudCommerce.Tests](test\cloudCommerce.Tests) 
+- Go to folder [test/cloudCommerce.Tests](test/cloudCommerce.Tests) 
 - Execute the command:
     `dotnet test`
