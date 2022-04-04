@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2E2F6E24-125C-41C1-82C5-86A4CD4A7828}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cloudCommerce.Presentation", "cloudCommerce.Presentation", "{5E1263C9-53C7-491C-8224-6A72EE4B7E92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cloudCommerce.Presentation", "src\cloudCommerce.Presentation\cloudCommerce.Presentation.csproj", "{64CFD6EF-275E-4FF3-A3C5-FF0AD974313E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cloudCommerce.Ioc", "cloudCommerce.Ioc", "{B5F62F19-B109-4476-B9B7-8D205F705153}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cloudCommerce.Ioc", "src\cloudCommerce.Ioc\cloudCommerce.Ioc.csproj", "{EEC405CB-228E-43D2-A495-DEFB33261BDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cloudCommerce.Application", "cloudCommerce.Application", "{04C9C97A-9F2C-40BC-93EF-3957F883CFF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cloudCommerce.Application", "src\cloudCommerce.Application\cloudCommerce.Application.csproj", "{13B378E3-9851-482C-9023-BF4C6D980577}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cloudCommerce.Domain", "cloudCommerce.Domain", "{BAC0EF8A-6285-4FBE-BDFC-BB274480AF59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cloudCommerce.Domain", "src\cloudCommerce.Domain\cloudCommerce.Domain.csproj", "{C2FD4813-2860-4843-A1D7-AF295B999211}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E259A41C-D224-4BD1-9318-51219505321C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cloudCommerce.Tests", "test\cloudCommerce.Tests\cloudCommerce.Tests.csproj", "{DBEE5FED-D206-4333-A5E8-88FF1191910A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{191717B3-CDD9-453C-A048-22D0FEA2D2CC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64CFD6EF-275E-4FF3-A3C5-FF0AD974313E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CFD6EF-275E-4FF3-A3C5-FF0AD974313E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CFD6EF-275E-4FF3-A3C5-FF0AD974313E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CFD6EF-275E-4FF3-A3C5-FF0AD974313E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC405CB-228E-43D2-A495-DEFB33261BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC405CB-228E-43D2-A495-DEFB33261BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC405CB-228E-43D2-A495-DEFB33261BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC405CB-228E-43D2-A495-DEFB33261BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B378E3-9851-482C-9023-BF4C6D980577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B378E3-9851-482C-9023-BF4C6D980577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B378E3-9851-482C-9023-BF4C6D980577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B378E3-9851-482C-9023-BF4C6D980577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2FD4813-2860-4843-A1D7-AF295B999211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2FD4813-2860-4843-A1D7-AF295B999211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2FD4813-2860-4843-A1D7-AF295B999211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FD4813-2860-4843-A1D7-AF295B999211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBEE5FED-D206-4333-A5E8-88FF1191910A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBEE5FED-D206-4333-A5E8-88FF1191910A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBEE5FED-D206-4333-A5E8-88FF1191910A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBEE5FED-D206-4333-A5E8-88FF1191910A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E1263C9-53C7-491C-8224-6A72EE4B7E92} = {2E2F6E24-125C-41C1-82C5-86A4CD4A7828}
+		{64CFD6EF-275E-4FF3-A3C5-FF0AD974313E} = {5E1263C9-53C7-491C-8224-6A72EE4B7E92}
+		{B5F62F19-B109-4476-B9B7-8D205F705153} = {2E2F6E24-125C-41C1-82C5-86A4CD4A7828}
+		{EEC405CB-228E-43D2-A495-DEFB33261BDA} = {B5F62F19-B109-4476-B9B7-8D205F705153}
+		{04C9C97A-9F2C-40BC-93EF-3957F883CFF0} = {2E2F6E24-125C-41C1-82C5-86A4CD4A7828}
+		{13B378E3-9851-482C-9023-BF4C6D980577} = {04C9C97A-9F2C-40BC-93EF-3957F883CFF0}
+		{BAC0EF8A-6285-4FBE-BDFC-BB274480AF59} = {2E2F6E24-125C-41C1-82C5-86A4CD4A7828}
+		{C2FD4813-2860-4843-A1D7-AF295B999211} = {BAC0EF8A-6285-4FBE-BDFC-BB274480AF59}
+		{DBEE5FED-D206-4333-A5E8-88FF1191910A} = {E259A41C-D224-4BD1-9318-51219505321C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BAD181F-5A4C-464F-806E-A54D1E9B8A8C}
+	EndGlobalSection
+EndGlobal
